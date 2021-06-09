@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-image: url("Bgb.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Einleitung {
+    padding: 0px 15px;
+}
+
+.Einleitung a {
+    text-decoration: none;
+    color: rgba(20, 173, 255, 1);
+}
+
+.Einleitung a:hover {
+    text-decoration: underline;
+}
+
+h1  {
+    font-weight: 300;
+    line-height: 2;
+    margin: 20px 0;
+    padding: 0px 45px;
+    color: #fff;
+}
+
+.HTML {
+    padding: 0px 15px;
+}
+
+.navbar {
+    background-color: rgba(33, 33, 33, 0.8);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul  {
+    padding: 0px 82px;
+    transform: scale(2);
+    list-style: none;
+    display: flex;
+}
+
+.navbar li:hover  {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 0px 10px;
+}
+
+footer  {
+    background-color: rgba(33, 33, 33, 0.8);
+    color: rgba(201, 201, 201, 1);
+    padding: 0 0;
+    position: relative;
+    bottom: 0;
+}
